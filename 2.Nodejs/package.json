@@ -1,0 +1,14 @@
+{
+  "name": "2.nodejs",
+  "version": "1.0.0",
+  "description": "Web Development (Creating Server With Express & Handling Request + Responses + General Express)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Egbinola",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
