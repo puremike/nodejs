@@ -1,18 +1,11 @@
-const http = require("http"); //HTTP module
+const express = require("express");
+const app = express();
 
-function handleRequest(request, response) {
-  if (request.url === "/") {
-    response.statusCode = 200;
-    response.end("<h1>Understanding Nodejs</h1>");
-  } else if (request.url === "/currenttime") {
-    response.statusCode = 200;
-    response.end("<h1>" + new Date().toISOString() + "</h1>");
-  } else {
-    response.statusCode = 404;
-    response.end("<h1>Invalid Request!</h1>");
-  }
-}
+app.get("/", function (req, res) {
+  res.send("<h1>Understanding Nodejs with Express</h1>"); //localhost:3000/
+});
 
-const server = http.createServer(handleRequest); //Server Creation
-
-server.listen(3000); //Allow server to listen to incoming request
+app.get("/currenttime", function (req, res) {
+  res.send("<h1>" + new Date().toISOString() + "</h1>"); //localhost:3000/currenttime
+});
+app.listen(3000);
