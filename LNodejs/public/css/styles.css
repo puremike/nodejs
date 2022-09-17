@@ -1,0 +1,51 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+main h1 {
+  margin-top: 10rem;
+}
+form {
+  background-color: rgb(235, 227, 240);
+  width: 20rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 3px;
+  font: inherit;
+  box-shadow: 2px 2px 4px rgba(29, 26, 27, 0.4);
+}
+input {
+  display: block;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgb(235, 227, 240);
+  border-radius: 3px;
+}
+
+input:focus {
+  background-color: rgb(224, 211, 233);
+}
+
+button {
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  border: 1px solid rgb(207, 173, 228);
+  background-color: rgb(156, 42, 226);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 0.6rem;
+}
+
+button:hover {
+  background-color: rgb(110, 19, 167);
+}
+
+h1 {
+  margin-top: 2rem;
+  color: rgb(172, 74, 233);
+  font-size: 2rem;
+  text-align: center;
+}

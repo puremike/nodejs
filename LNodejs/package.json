@@ -1,0 +1,18 @@
+{
+  "name": "lnodejs",
+  "version": "1.0.0",
+  "description": "Relearning Web Development With Nodejs & Expressjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Michael Egbinola",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
