@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Tobito",
+    "address": "Toks Street, Tobito Area, Ibadan",
+    "cuisine": " Nigerian",
+    "website": "https://tobitospecials.com",
+    "description": "Their food is lovely and satiable!"
+  },
+  {
+    "name": "dreamPOD",
+    "address": "Heritage Mall, Dugbe",
+    "cuisine": "Nigerian",
+    "website": "https://dreampod.com",
+    "description": "Breakfast is light and healthy!"
+  }
+]
